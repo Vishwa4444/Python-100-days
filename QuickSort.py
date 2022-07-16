@@ -21,5 +21,5 @@ try:
 except:
     print(list)
 
-          
+print()         
 print(quick_sort(list))

@@ -10,7 +10,7 @@ def quick_sort(sequence):
         for item in sequence:
             if item > pivot:
                 greater.append(item)
-
+#
             else:
                 lower.append(item)
         return quick_sort(lower)+[pivot]+quick_sort(greater)

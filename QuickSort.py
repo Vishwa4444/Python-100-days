@@ -4,7 +4,7 @@ def quick_sort(sequence):
         return sequence
     else:
         pivot=sequence.pop()
-        greater=[]
+      
         lower=[]
 
         for item in sequence:
